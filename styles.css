@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 600px;
+    min-height: 90vh;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    opacity: 0.5;
+
+}
+.bet{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+.bet span{
+    display: block;
+    color: #eb4d4d;
+    font-size: 40px;
+    font-weight: 500;
+}
+.result{
+    color: purple;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+table{
+    width: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 30px;
+}
+.red-1, .red-2, .red-3, .red-4, .red-5, .red-6{
+    text-align: center;
+    background-color: red;
+    font-size: 25px;
+    color: #fff;
+}
+.black-1, .black-2, .black-3, .black-4, .black-5, .black-6{
+    text-align: center;
+    background-color: black;
+    font-size: 25px;
+    color: #fff;
+}
+.button{
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+}
+.img{
+    position: absolute;
+    /* top: 30px; */
+    margin: 20px;
+    justify-content: center;
+}
+.dice{
+    width: 100px;
+}
+button{
+    width: 100px;
+    border-radius: 40%;
+    position: relative;
+    /* bottom: 100px; */
+    /* margin-top: 50px; */
+    margin-left: 100px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, black, red);
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+p{
+    text-transform: uppercase;
+}
